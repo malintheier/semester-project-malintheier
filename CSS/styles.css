@@ -40,7 +40,6 @@ nav ul li {
 nav ul li a {
   color: white;
   text-transform: uppercase;
-  font: #;
 }
 
 nav ul li a:hover {
@@ -126,6 +125,10 @@ footer .text_box a {
   color: white;
   line-height: 40px;
   font-size: 20px;
+}
+
+footer img {
+  width: 260px;
 }
 
 .margin_bottom {

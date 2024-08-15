@@ -1,0 +1,161 @@
+.welcome {
+    background-color: rgba(170, 170, 170, 0.05); 
+    backdrop-filter: blur(2px);
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    margin-top: 60px;
+}
+
+
+.welcome h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.welcome p {
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 20px;
+    padding-right: 90px;
+}
+
+.welcome img {
+    width: 50%;
+    border-radius: 40px;
+}
+
+.welcome a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #B162FB;
+    padding: 18px 22px 18px 22px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.explore {
+    background-color: rgba(170, 170, 170, 0.05); 
+    backdrop-filter: blur(2px);
+    height: auto;
+    width: 100%;
+    padding: 90px 120px 90px 120px;
+    margin-top: 90px;
+}
+
+.explore h2 {
+    width: 100%;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.explore p {
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 60px;
+    line-height: 40px;
+}
+
+.explore figure {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.explore figure .img_box {
+    text-align: center;
+    position: relative;
+}
+
+.explore img {
+    width: 350px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 40px;
+    filter: brightness(40%);
+}
+
+.explore .img_box h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.news {
+    background-color: rgba(170, 170, 170, 0.05); 
+    backdrop-filter: blur(2px);
+    height: auto;
+    width: 100%;
+    padding: 90px 120px 90px 120px;
+    margin-top: 90px;
+}
+
+.news h2 {
+    width: 100%;
+    color: white;
+    font-size: 48px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.news p {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.news figure {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+
+.news figure .img_box {
+    text-align: center;
+    position: relative;
+}
+
+.news img {
+    width: 550px;
+    height: 850px;
+    object-fit: cover;
+    border-radius: 40px;
+    filter: brightness(40%);
+}
+
+.news .img_box h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+
+
+

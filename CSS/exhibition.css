@@ -1,0 +1,189 @@
+.news {
+    background-color: rgba(170, 170, 170, 0.05); 
+    backdrop-filter: blur(2px);
+    height: auto;
+    width: 100%;
+    padding: 90px 120px 90px 120px;
+    margin-top: 90px;
+}
+
+.news h2 {
+    width: 100%;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.news p {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+
+.news .box {
+    width: 100%;
+    display: flex;
+    padding: 90px 0px 0px 0px;
+}
+
+.news .box img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.news .box .info {
+    padding: 0px 360px 0px 60px;
+    position: relative;
+}
+
+.news .box .info h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.news .box .info p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.news .box .info a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #C05AA2;
+    padding: 18px 40px 18px 40px;
+    border-radius: 25px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+}
+
+.exhibitions {
+    background-color: rgba(170, 170, 170, 0.05); 
+    backdrop-filter: blur(2px);
+    height: auto;
+    width: 100%;
+    padding: 90px 120px 90px 120px;
+    margin-top: 90px;
+}
+
+.exhibitions h2 {
+    width: 100%;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.exhibitions p {
+    width: 50%;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.exhibitions .box {
+    width: 100%;
+    display: flex;
+    padding: 90px 0px 0px 0px;
+}
+
+.exhibitions .box img {
+    width: 500px;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.exhibitions .box .info {
+    padding: 0px 360px 0px 60px;
+    position: relative;
+}
+
+.exhibitions .box .info h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.exhibitions .box .info p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.exhibitions .box .info .buttons {
+    position: absolute;
+    bottom: 0px;
+}
+
+.exhibitions .box .info .buttons button {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #C05AA2;
+    padding: 18px 40px 18px 40px;
+    border-radius: 25px;
+    border: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+.information .audience {
+    width: 100%;
+    display: flex;
+}
+
+.information .audience .text_1 {
+    width: 40%;
+    background-color: #276395;
+    padding: 60px 120px 60px 120px;
+}
+
+.information .audience .text_2 {
+    width: 40%;
+    background-color: #B162FB;
+    padding: 60px 120px 60px 120px;
+}
+
+.information .audience .text_3 {
+    width: 40%;
+    background-color: #C05AA2;
+    padding: 60px 120px 60px 120px;
+}
+
+.information .audience h4 {
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.information .audience p {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.information .audience img {
+    width: 60%;
+    height: 660px;
+    object-fit: cover;
+}
+

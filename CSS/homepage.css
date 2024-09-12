@@ -2,14 +2,10 @@
     background-color: rgba(170, 170, 170, 0.05); 
     backdrop-filter: blur(2px);
     display: flex;
-    height: auto;
-    width: 100%;
-    justify-content: center;
     align-items: center;
-    padding: 120px;
+    justify-content: center;
     margin-top: 60px;
 }
-
 
 .welcome h1 {
     color: white;
@@ -21,9 +17,9 @@
 .welcome p {
     color: white;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 30px;
     padding-bottom: 20px;
-    padding-right: 90px;
+    padding-right: 60px;
 }
 
 .welcome img {
@@ -48,8 +44,16 @@
     backdrop-filter: blur(2px);
     height: auto;
     width: 100%;
-    padding: 90px 120px 90px 120px;
     margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0px 90px 0px;
+}
+
+.explore .box {
+    width: 1640px;
+    margin: 0px 120px 0px 120px;
 }
 
 .explore h2 {
@@ -61,11 +65,11 @@
 }
 
 .explore p {
-    width: 50%;
+    width: 100%;
     color: white;
     font-size: 20px;
     margin-bottom: 60px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .explore figure {
@@ -74,7 +78,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    gap: 30px;
 }
 
 .explore figure .img_box {
@@ -83,11 +87,15 @@
 }
 
 .explore img {
-    width: 350px;
-    height: 600px;
+    width: 280px;
+    height: 460px;
     object-fit: cover;
     border-radius: 40px;
     filter: brightness(40%);
+}
+
+.explore img:hover {
+    
 }
 
 .explore .img_box h3 {
@@ -105,8 +113,16 @@
     backdrop-filter: blur(2px);
     height: auto;
     width: 100%;
-    padding: 90px 120px 90px 120px;
+    padding: 90px 0px 90px 0px;
     margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news .box {
+    width: 1640px;
+    margin: 0px 120px 0px 120px;
 }
 
 .news h2 {
@@ -130,7 +146,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 120px;
+    gap: 60px;
 }
 
 .news figure .img_box {
@@ -139,7 +155,7 @@
 }
 
 .news img {
-    width: 550px;
+    width: 500px;
     height: 850px;
     object-fit: cover;
     border-radius: 40px;
@@ -156,6 +172,187 @@
     font-size: 36px;
 }
 
+@media (max-width: 1890px) {
+
+    .explore img {
+        width: 220px;
+        height: 380px;
+    }
+
+    .explore .img_box h3 {
+        font-size: 28px;
+    }
+
+    .news img {
+        width: 360px;
+        height: 640px;
+    }
+}
+
+@media (max-width: 1490px) {
+
+    .welcome h1 {
+        font-size: 42px;
+    }
+
+    .welcome p {
+        font-size: 18px;
+    }
+
+    .welcome a {
+        font-size: 18px;
+    }
+
+    .explore figure {
+        justify-content: flex-start;
+    }
+
+    .explore h2 {
+        font-size: 42px;
+    }
+
+    .explore p {
+        font-size: 18px;
+    }
+
+    .news h2 {
+        font-size: 42px;
+    }
+
+    .news p {
+        font-size: 18px;
+    }
+
+    .news img {
+        width: 260px;
+        height: 480px;
+    }
+
+    .news .img_box h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .welcome {
+        margin-top: 30px;
+    }
+
+    .welcome img {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .welcome .text_box {
+        width: 100%;
+    }
+
+    .news img {
+        width: 360px;
+        height: 640px;
+    }
+
+    .explore .box {
+        width: 100%;
+        margin: 0px 60px 0px 60px;
+    }
+
+    .news figure {
+        justify-content: flex-start;
+    }
+
+    .news .box {
+        width: 100%;
+        margin: 0px 60px 0px 60px;
+    }
+
+    .news h2 {
+        font-size: 42px;
+    }
+
+    .news p {
+        font-size: 18px;
+    }
+
+    .news img {
+        width: 260px;
+        height: 480px;
+    }
+
+    .news .img_box h3 {
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    .news {
+        padding: 60px 0px 60px 0px;
+    }
+    
+    .news figure {
+        justify-content: center;
+    }
+
+    .news img {
+        width: 500px;
+        height: 800px;
+    }
+
+    .explore {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .explore figure {
+        justify-content: center;
+    }
+
+    .explore img {
+        width: 500px;
+        height: 650px;
+    }
+}
+
+@media all and (max-width:450px) {
+
+    .welcome {
+        margin-top: 20px;
+    }
+
+    .news {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .news .box {
+        margin: 0px;
+    }
+
+    .news figure {
+        gap: 30px;
+    }
+
+    .news img {
+        width: 350px;
+        height: 600px;
+    }
+
+    .explore {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .explore .box {
+        margin: 0px;
+    }
+
+    .explore img {
+        width: 350px;
+        height: 500px;
+    }
+
+}
 
 
 

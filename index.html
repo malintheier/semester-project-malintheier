@@ -7,171 +7,188 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/homepage.css">
-    <title>Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />    <title>Homepage</title>
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar">
-            <a href="../index.html"><img src="../IMG/LOGO.svg" alt="ScienCity logo" class="logo"></a>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../HTML/exhibition.html">Exhibitions</a></li>
-                    <li><a href="../HTML/contribution.html">Contribute</a></li>
-                    <li><a href="../HTML/contact.html">Contact</a></li>
-                    <li><a href="../HTML/document.html">Documents</a></li>
-                </ul>
-        </nav>
+            <nav>
+                <input type="checkbox" id="check">
+                    <label for="check">
+                        <i class="material-symbols-outlined" id="btn">menu</i>
+                        <i class="material-symbols-outlined" id="cancel">close</i>
+                    </label>
+
+                <a href="../index.html"><img src="../IMG/LOGO.svg" alt="ScienCity logo" class="logo"></a>
+                    
+                    <ul class="menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../HTML/exhibition.html">Exhibitions</a></li>
+                        <li><a href="../HTML/contribution.html">Contribute</a></li>
+                        <li><a href="../HTML/contact.html">Contact</a></li>
+                        <li><a href="../HTML/document.html">Documents</a></li>
+                    </ul>
+            </nav>
     </header>
 
         <main>
             
                 <article class="welcome">
-                    <div class="text_box">
-                        <h1>
-                            Opening soon!
-                        </h1>
-                        <p>
-                            Come join us at the Sciencity Science Museum where we’re committed to making science accessible to all.
-                        </p>
-                        <p>
-                            Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.
-                        </p> 
-                        <p>
-                            The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
-                        </p>
+                    <div class="wrapper">
+                        <div class="text_box">
+                            <h1>
+                                Opening soon!
+                            </h1>
+                            <p>
+                                Come join us at the Sciencity Science Museum where we’re committed to making science accessible to all.
+                            </p>
+                            <p>
+                                Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.
+                            </p> 
+                            <p>
+                                The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
+                            </p>
 
-                        <a href="../html/exhibition.html">Check it out!</a>
+                            <a href="../html/exhibition.html">Check it out!</a>
 
+                        </div>
+                        
+                        <img src="../IMG/andrew-ruiz-348421.jpg" alt="Image of an astronaut in a pretend spaceship">
                     </div>
-                    
-                    <img src="../IMG/andrew-ruiz-348421.jpg" alt="Image of an astronaut in a pretend spaceship">
-                
                 </article>
             
-
-            <article class="explore">
-                <h2>
-                    Explore
-                </h2>
-                <p>
-                    We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
-                </p>
-                <figure>
-                    <div class="img_box">
-                        <img src="../IMG/celso-405219.jpg" alt="picture of the moon leading to cosmology site">
-                        <h3>Cosmology</h3>
-                    </div>
-
-                    <div class="img_box">
-                        <img src="../IMG/mavis-cw-164128.jpg" alt="picture of a museum">
-                        <h3>Evolution</h3>
-                    </div>
-
-                    <div class="img_box">
-                        <img src="../IMG/samuel-zeller-113381.jpg" alt="picture of human anatomie leading to biologi and medicin site">
-                        <h3>Biology and medicine</h3>
-                    </div>
-
-                    <div class="img_box">
-                        <img src="../IMG/samuel-zeller-158996.jpg" alt="picture of a boy with VR-glasses leading to robotics and AI site">
-                        <h3>Robotics and AI</h3>
-                    </div>
-
-                    <div class="img_box">
-                        <img src="../IMG/mammoth-1257288_1920.jpg" alt="picture of a mammoth sceleton in a museum">
-                        <h3>Ecology</h3>
-                    </div>
-                </figure>
-            </article>
             
             <article class="news">
-                <h2>
-                    News
-                </h2>
-                <p>
-                    Special Events and Exhibitions
-                </p>
-                <figure>
-                    <div class="img_box">
-                        <img src="../IMG/andrew-ruiz-348421.jpg" alt="Image of an astronaut in a pretend spaceship">
-                        <h3>Visiting professor of aeronautics</h3>
-                    </div>
+                <div class="box">
+                    <h2>
+                        News
+                    </h2>
+                    <p>
+                        Special Events and Exhibitions
+                    </p>
+                    <figure>
+                        <div class="img_box">
+                            <img src="../IMG/andrew-ruiz-348421.jpg" alt="Image of an astronaut in a pretend spaceship">
+                            <h3>Visiting professor of aeronautics</h3>
+                        </div>
 
-                    <div class="img_box">
-                        <img src="../IMG/roberto-nickson-396152.jpg" alt="picture of elephant in a museum leading to evolution site">
-                        <h3>Night in the museum</h3>
-                    </div>
+                        <div class="img_box">
+                            <img src="../IMG/roberto-nickson-396152.jpg" alt="picture of elephant in a museum leading to evolution site">
+                            <h3>Night in the museum</h3>
+                        </div>
 
-                    <div class="img_box">
-                        <img src="../IMG/william-bout-264826.jpg" alt="picture of atoms">
-                        <h3>Energetica exhibition on loan</h3>
-                    </div>
-                </figure>
+                        <div class="img_box">
+                            <img src="../IMG/william-bout-264826.jpg" alt="picture of atoms">
+                            <h3>Energetica exhibition on loan</h3>
+                        </div>
+                    </figure>
+                </div>
+            </article>
+
+            <article class="explore">
+                <div class="box">
+                    <h2>
+                        Explore
+                    </h2>
+                    <p>
+                        A Science Museum filled with experiences and adventures. 
+                    </p>
+                    <figure>
+                        <div class="img_box">
+                            <img src="../IMG/celso-405219.jpg" alt="picture of the moon leading to cosmology site">
+                            <h3>Cosmology</h3>
+                        </div>
+
+                        <div class="img_box">
+                            <img src="../IMG/mavis-cw-164128.jpg" alt="picture of a museum">
+                            <h3>Evolution</h3>
+                        </div>
+
+                        <div class="img_box">
+                            <img src="../IMG/samuel-zeller-113381.jpg" alt="picture of human anatomie leading to biologi and medicin site">
+                            <h3>Biology and medicine</h3>
+                        </div>
+
+                        <div class="img_box">
+                            <img src="../IMG/samuel-zeller-158996.jpg" alt="picture of a boy with VR-glasses leading to robotics and AI site">
+                            <h3>Robotics and AI</h3>
+                        </div>
+
+                        <div class="img_box">
+                            <img src="../IMG/mammoth-1257288_1920.jpg" alt="picture of a mammoth sceleton in a museum">
+                            <h3>Ecology</h3>
+                        </div>
+                    </figure>
+                </div>
             </article>
 
             <section class="visit">
-                <h2>
-                    Visit
-                </h2>
+                <div class="box">
+                    <h2>
+                        Visit
+                    </h2>
 
-                <div class="text_box">
-                    <h3>
-                        Location
-                    </h3>
-                    <p>
-                        The museum is located at Slitu Handelspark, Morstongveien 47, 1859 Slitu
-                    </p>
-                    <h3>
-                        Admission
-                    </h3>
-                    <p>
-                        The entrance is free for all.
-                    </p>
-                    <p>
-                        There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.
-                    </p>
-                    <p>
-                        If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.
-                    </p>
-                </div>
+                    <div class="text_box">
+                        <h3>
+                            Location
+                        </h3>
+                        <p>
+                            The museum is located at Slitu Handelspark, Morstongveien 47, 1859 Slitu
+                        </p>
+                        <h3>
+                            Admission
+                        </h3>
+                        <p>
+                            The entrance is free for all.
+                        </p>
+                        <p>
+                            There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.
+                        </p>
+                        <p>
+                            If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.
+                        </p>
+                    </div>
 
-                <div class="text_box_1">
-                    <h3>
-                        Hours
-                    </h3>
+                    <div class="text_box_1">
+                        <h3>
+                            Hours
+                        </h3>
 
-                    <ul>
-                        <li>Monday: Closed</li>
-                        <li>Tuesday: 10:00 – 16:00</li>
-                        <li>Wednesday: 10:00 – 16:00</li>
-                        <li>Thursday: 10:00 – 16:00</li>
-                        <li>Friday: 10:00 – 19:00</li>
-                        <li>Saturday: 9:00 – 16:00</li>
-                        <li>Sunday: 9:00 – 13:00</li>
-                        <li>+47 11223344</li>
-                    </ul>
-                   
+                        <ul>
+                            <li>Monday: Closed</li>
+                            <li>Tuesday: 10:00 – 16:00</li>
+                            <li>Wednesday: 10:00 – 16:00</li>
+                            <li>Thursday: 10:00 – 16:00</li>
+                            <li>Friday: 10:00 – 19:00</li>
+                            <li>Saturday: 9:00 – 16:00</li>
+                            <li>Sunday: 9:00 – 13:00</li>
+                            <li>+47 11223344</li>
+                        </ul>
+                    
+                    </div>
                 </div>
             </section>
 
         </main>
 
     <footer>
-        <div class="text_box">
-            <img src="../IMG/LOGO.svg" alt="ScienCity logo">
-            <p>
-                ScienCity is an interactive science museum that inspires curiosity with hands-on exhibits and educational programs, making science accessible and engaging for all ages.
-            </p>
-        </div>
+        <div class="box">
+            <div class="text_box">
+                <img src="../IMG/LOGO.svg" alt="ScienCity logo">
+                <p>
+                    ScienCity is an interactive science museum that inspires curiosity with hands-on exhibits and educational programs, making science accessible and engaging for all ages.
+                </p>
+            </div>
 
-        <div class="text_box">
-            <ul>
-                <li><a href="../html/contact.html">Contact</a></li>
-                <li><a href="../html/document.html">Privacy policy</a></li>
-                <li><a href="../html/document.html">Terms and conditions</a></li>
-            </ul>
+            <div class="text_box">
+                <ul>
+                    <li><a href="../html/contact.html">Contact</a></li>
+                    <li><a href="../html/document.html">Privacy policy</a></li>
+                    <li><a href="../html/document.html">Terms and conditions</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 

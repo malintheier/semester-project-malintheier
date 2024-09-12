@@ -11,40 +11,78 @@ ul {
 body {
   background-image: url('../IMG/STARS_1.png');
   background-color: #080B2A;
+  font-family: "Roboto", sans-serif;
 }
 
+.wrapper {
+  display: flex;
+  height: auto;
+  max-width: 1640px;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0px 120px 0px;
+  margin: 0px 120px 0px 120px;
+}
+
+
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  padding: 20px 120px;
+  padding: 20px 0px 20px 0px;
+  height: 140px;
 }
 
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  width: 1640px;
+  height: 100px;
+  margin: 0px 120px 0px 120px;
 }
 
 .logo {
-  width: 200px;
+  position: relative;
+  height: 100px;
+  
 }
 
 nav ul {
-  text-align: right;
-  display: flex;
+  float: right;
 }
 
 nav ul li {
+  display: inline-block;
+  line-height: 100px;
   padding: 0px 0px 0px 40px;
 }
 
 nav ul li a {
+  position: relative;
   color: white;
   text-transform: uppercase;
+  font-size: 18px;
 }
 
 nav ul li a:hover {
-  font-weight: 800;
+  font-weight: 600;
 }
+
+label #btn,
+label #cancel {
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  float: right;
+  line-height: 100px;
+}
+
+#check {
+  display: none;
+}
+
+
+
 
 
 
@@ -55,6 +93,13 @@ nav ul li a:hover {
   background-color: #276395;
   padding: 90px 120px 90px 120px;
   margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.visit .box {
+  max-width: 1640px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -98,6 +143,8 @@ nav ul li a:hover {
 
 
 
+
+
 footer {
   background-color: rgba(170, 170, 170, 0.05); 
   backdrop-filter: blur(2px);
@@ -106,8 +153,16 @@ footer {
   padding: 90px 120px 90px 120px;
   margin-top: 90px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
+}
+
+footer .box {
+  width: 1640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25%;
 }
 
 footer .text_box {
@@ -127,6 +182,10 @@ footer .text_box a {
   font-size: 20px;
 }
 
+footer .text_box a:hover {
+  font-weight: 600;
+}
+
 footer img {
   width: 260px;
 }
@@ -135,3 +194,212 @@ footer img {
   width: 100%;
   height: 90px;
 }
+
+
+
+
+@media all and (max-width: 1490px) {
+  .logo {
+    height: 80px;
+    top: 10px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .visit h2 {
+    font-size: 42px;
+  }
+
+  .visit .text_box h3,
+  .visit .text_box_1 h3 {
+    font-size: 22px;
+  }
+
+  .visit .text_box,
+  .visit .text_box_1 {
+    font-size: 18px;
+  }
+
+  footer .text_box,
+  footer .text_box a {
+    font-size: 16px;
+  }
+
+}
+
+
+@media all and (max-width: 1200px) {
+  label #btn {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #080B2A;
+    top: 140px;
+    left: -100%;
+    z-index: 1;
+    text-align: left;
+    transition: all .5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 20px 120px;
+    padding: 0;
+    line-height: 30px;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  #check:checked ~ label #btn {
+    display: none;
+  }
+
+  #check:checked ~ label #cancel {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+    height: 100px;
+    margin: 0px 60px 0px 60px;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0px 60px 0px 60px;
+    padding: 60px 0px 60px 0px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .visit {
+    width: 100%;
+    padding: 90px 60px 90px 60px;
+  }
+  
+  .visit .box {
+    width: 100%;
+  }
+
+  .visit .text_box {
+    padding-right: 30px;
+    line-height: 40px;
+  }
+
+  .visit .text_box_1 {
+    padding-left: 30px;
+    padding-right: 0px;
+    line-height: 40px;
+  }
+
+  footer {
+    padding: 90px 60px 90px 60px;
+  }
+
+  footer .box {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 768px) {
+
+  header {
+    padding: 10px 0px 10px 0px;
+    height: 100px;
+  }
+
+  .menu {
+    top: 100px;
+  }
+
+  nav ul li {
+    margin: 20px 60px;
+  }
+
+  .visit {
+    padding: 60px;
+  }
+
+  .visit .text_box,
+  .visit .text_box_1 {
+    width: 100%;
+    padding: 0px;
+  }
+
+  footer {
+    padding: 60px;
+  }
+
+  footer .box {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  footer .text_box {
+    width: 100%;
+  }
+
+  .margin_bottom {
+    height: 60px;
+  }
+
+}
+
+@media all and (max-width:450px) {
+  header {
+    height: 80px;
+  }
+
+  .menu {
+    top: 80px;
+  }
+
+  nav ul li {
+    margin: 20px 30px;
+  }
+
+  nav {
+    height: 60px;
+    margin: 0px 30px 0px 30px;
+  }
+
+  nav .logo {
+    height: 60px;
+    top: 0px;
+  }
+
+  label #btn,
+  label #cancel {
+  line-height: 60px;
+  }
+
+  .wrapper {
+    margin: 0px;
+    padding: 30px;
+  }
+
+  .visit {
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  footer {
+    margin-top: 30px;
+    padding: 30px;
+  }
+
+  .margin_bottom {
+    height: 30px;
+  }
+
+}
+

@@ -5,6 +5,13 @@
     width: 100%;
     padding: 90px 120px 90px 120px;
     margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news .wrap {
+    max-width: 1640px;
 }
 
 .news h2 {
@@ -35,7 +42,7 @@
 }
 
 .news .box .info {
-    padding: 0px 360px 0px 60px;
+    padding: 0px 120px 0px 60px;
     position: relative;
 }
 
@@ -71,6 +78,13 @@
     width: 100%;
     padding: 90px 120px 90px 120px;
     margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exhibitions .wrap {
+    max-width: 1640px;
 }
 
 .exhibitions h2 {
@@ -102,7 +116,7 @@
 }
 
 .exhibitions .box .info {
-    padding: 0px 360px 0px 60px;
+    padding: 0px 120px 0px 60px;
     position: relative;
 }
 
@@ -146,6 +160,7 @@
 
 .information .audience {
     width: 100%;
+    height: 660px;
     display: flex;
 }
 
@@ -186,4 +201,80 @@
     height: 660px;
     object-fit: cover;
 }
+
+.additional {
+    background-color: rgba(170, 170, 170, 0.05); 
+    backdrop-filter: blur(2px);
+    height: auto;
+    width: 100%;
+    padding: 90px 120px 90px 120px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.additional .wrap {
+    max-width: 1640px;
+}
+
+.additional h2 {
+    width: 100%;
+    color: white;
+    font-size: 48px;
+    padding-bottom: 90px;
+    text-transform: uppercase;
+}
+
+.additional p {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.additional figure {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.additional figure .img_box {
+    text-align: center;
+    position: relative;
+}
+
+.additional img {
+    width: 500px;
+    height: 850px;
+    object-fit: cover;
+    border-radius: 40px;
+    filter: brightness(40%);
+}
+
+.additional .img_box h3 {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: left;
+}
+
+.additional .img_box p {
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    width: 75%;
+    text-align: left;
+}
+
+
 

@@ -285,7 +285,7 @@
     }
 }
 
-@media all and (max-width: 768) {
+@media all and (max-width: 768px) {
 
     .news {
         padding: 60px 0px 60px 0px;

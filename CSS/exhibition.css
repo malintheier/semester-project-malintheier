@@ -71,6 +71,10 @@
     bottom: 0px;
 }
 
+.news .box .info a:hover {
+    font-weight: 550;
+}
+
 .exhibitions {
     background-color: rgba(170, 170, 170, 0.05); 
     backdrop-filter: blur(2px);
@@ -99,7 +103,7 @@
     width: 50%;
     color: white;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .exhibitions .box {
@@ -144,12 +148,13 @@
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
-    background-color: #C05AA2;
+    background-color: #B162FB;
     padding: 18px 40px 18px 40px;
     border-radius: 25px;
     border: none;
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 8px;
+    margin-top: 16px;
 }
 
 .information {
@@ -160,7 +165,7 @@
 
 .information .audience {
     width: 100%;
-    height: 660px;
+    height: 720px;
     display: flex;
 }
 
@@ -198,7 +203,7 @@
 
 .information .audience img {
     width: 60%;
-    height: 660px;
+    height: 720px;
     object-fit: cover;
 }
 
@@ -252,7 +257,7 @@
     height: 850px;
     object-fit: cover;
     border-radius: 40px;
-    filter: brightness(40%);
+    filter: brightness(50%);
 }
 
 .additional .img_box h3 {
@@ -275,6 +280,343 @@
     width: 75%;
     text-align: left;
 }
+
+
+@media (max-width: 1890px) {
+
+    .information .audience h4 {
+        font-size: 28px;
+    }
+    
+    .information .audience p {
+        font-size: 18px;
+    }
+
+    .additional img {
+        width: 360px;
+        height: 640px;
+    }
+
+    .additional figure {
+        justify-content: flex-start;
+    }
+
+    .additional .img_box h3 {
+        font-size: 28px;
+    }
+
+    .additional .img_box p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1700px) {
+
+    .exhibitions p {
+        width: 75%;
+    }
+    
+    .information .audience {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .information .audience .text_1 {
+        width: 100%;
+    }
+
+    .information .audience .text_1:nth-child(1) {
+        order: 2;
+    }
+    
+    .information .audience .text_2 {
+        width: 100%;
+    }
+    
+    .information .audience .text_3 {
+        width: 100%;
+    }
+
+    .information .audience .text_3:nth-child(1) {
+        order: 2;
+    }
+    
+    .information .audience img {
+        width: 100%;
+        height: 680px;
+    }
+
+}
+
+@media (max-width: 1490px) {
+
+    .news {
+        margin-top: 60px;
+    }
+
+    .news h2 {
+        font-size: 42px;
+    }
+
+    .news p {
+        font-size: 16px;
+    }
+
+    .news .wrap .info {
+        padding: 0px 0px 0px 60px;
+    }
+
+    .news .wrap .info h3 {
+        font-size: 28px;
+    }
+
+    .news .wrap .info p {
+        font-size: 18px;
+    }
+
+    .news .wrap .info a {
+        font-size: 18px;
+        padding: 14px 30px;
+    }
+
+    .exhibitions h2 {
+        font-size: 42px;
+    }
+
+    .exhibitions p {
+        font-size: 16px;
+        width: 75%;
+    }
+
+    .exhibitions .wrap .info {
+        padding: 0px 0px 0px 60px;
+    }
+
+    .exhibitions .wrap .info h3 {
+        font-size: 28px;
+    }
+
+    .exhibitions .wrap .info p {
+        font-size: 18px;
+    }
+
+    .exhibitions .wrap .info .buttons button {
+        font-size: 18px;
+        padding: 14px 30px;
+    }
+
+    .additional h2 {
+        font-size: 42px;
+    }
+
+    .additional img {
+        width: 300px;
+        height: 480px;
+    }
+
+    .additional .img_box h3 {
+        padding-bottom: 20px;
+    }
+
+    .additional .img_box p {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .news {
+        margin-top: 30px;
+        padding: 60px;
+    }
+
+    .news .wrap .box {
+        padding: 60px 0px 0px 0px;
+    }
+
+    .exhibitions {
+        padding: 60px;
+    }
+
+    .exhibitions p {
+        width: 75%;
+    }
+
+    .exhibitions .wrap .box {
+        padding: 60px 0px 0px 0px;
+    }
+
+    .information .audience .text_1,
+    .information .audience .text_2,
+    .information .audience .text_3 {
+        padding: 60px;
+    }
+
+    .information .audience img {
+        height: 500px;
+    }
+
+    .additional {
+        padding: 60px;
+    }
+
+    .additional h2 {
+        padding-bottom: 60px;
+    }
+
+}
+
+@media all and (max-width: 1084px) {
+
+    .news .wrap .box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .news .wrap .box img {
+        width: 100%;
+        height: 360px;
+    }
+
+    .news .wrap .box .info {
+        padding: 60px 0px 90px 0px;
+    }
+
+    .exhibitions p {
+        width: 100%;
+    }
+
+    .exhibitions .wrap .box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .exhibitions .wrap .box img {
+        width: 100%;
+        height: 360px;
+    }
+
+    .exhibitions .wrap .box .info {
+        padding: 60px 0px 60px 0px;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+
+    .exhibitions .wrap .box .info {
+        padding: 60px 0px 150px 0px;
+    }
+
+    .information .audience img {
+        height: 400px;
+    }
+
+    .additional figure {
+        justify-content: center;
+    }
+
+    .additional .img_box img {
+        height: 800px;
+        width: 500px;
+    }
+   
+}
+
+@media all and (max-width:450px) {
+
+    .news {
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .news h2 {
+        font-size: 32px;
+    }
+
+    .news p {
+        font-size: 16px;
+    }
+
+    .news .box .info h3 {
+        font-size: 22px;
+    }
+
+    .news .box .info p {
+        font-size: 16px ;
+    }
+
+    .exhibitions {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .exhibitions h2 {
+        font-size: 32px;
+    }
+
+    .exhibitions p {
+        font-size: 16px;
+    }
+
+    .exhibitions .box .info h3 {
+        font-size: 22px;
+    }
+
+    .exhibitions .box .info p {
+        font-size: 16px ;
+    }
+
+    .exhibitions .wrap .info .buttons button {
+        font-size: 16px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .information {
+        margin-top: 30px;
+    }
+
+    .information .audience img {
+        height: 300px;
+    }
+
+    .information .audience h4 {
+        font-size: 22px;
+    }
+
+    .information .audience p {
+        font-size: 16px;
+    }
+
+    .information .audience .text_1,
+    .information .audience .text_2,
+    .information .audience .text_3 {
+        padding: 30px;
+    }
+
+    .additional {
+        margin-top: 30px;
+    }
+
+    .additional h2 {
+        font-size: 32px;
+    }
+
+    .additional .img_box img {
+        height: 546px;
+        width: 100%;
+    }
+
+    .additional .img_box h3 {
+        font-size: 22px;
+    }
+
+}
+
+
 
 
 

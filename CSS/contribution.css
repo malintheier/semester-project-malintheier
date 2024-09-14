@@ -6,7 +6,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 120px 0px 120px 0px;
+    padding: 120px;
     margin-top: 60px;
 }
 
@@ -21,7 +21,7 @@
     width: 50%;
 }
 
-.contribute h1 {
+.contribute h2 {
     color: white;
     font-size: 48px;
     margin-bottom: 30px;
@@ -57,7 +57,7 @@
     width: 100%;
     height: auto;
     background-color: #B162FB;
-    padding: 90px 0px 90px 0px;
+    padding: 90px 120px 90px 120px;
     margin-top: 90px;
     display: flex;
     justify-content: center;
@@ -85,4 +85,75 @@
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 20px;
+  }
+
+
+
+  @media all and (max-width: 1200px) {
+
+    .contribute {
+      padding: 60px;
+      margin-top: 30px;
+    }
+
+    .contribute .text_box {
+      width: 100%;
+    }
+
+    .contribute .text_box p {
+      padding-right: 0px;
+    }
+
+    .contribute img {
+      display: none;
+    }
+
+    .info {
+      padding: 60px;
+    }
+
+    .info .wrap {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .info .wrap .text_box {
+      width: 100%;
+    }
+
+  }
+
+  @media all and (max-width:450px) {
+
+    .contribute {
+      padding: 30px;
+      margin-top: 20px;
+    }
+
+    .contribute h2 {
+      font-size: 32px;
+    }
+
+    .contribute p {
+      font-size: 16px;
+    }
+
+    .contribute a {
+      font-size: 16px;
+      padding: 14px 30px 14px 30px;
+    }
+
+    .info {
+      padding: 30px;
+      margin-top: 30px;
+    }
+
+    .info h3 {
+      font-size: 22px;
+    }
+
+    .info p {
+      font-size: 16px;
+    }
+
   }

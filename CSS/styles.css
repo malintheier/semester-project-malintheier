@@ -249,9 +249,13 @@ footer img {
 
   nav ul li {
     display: block;
-    margin: 20px 120px;
+    margin: 20px 60px;
     padding: 0;
     line-height: 30px;
+  }
+
+  .menu a:hover {
+    font-weight: 600;
   }
 
   #check:checked ~ ul {
@@ -390,6 +394,18 @@ footer img {
   .visit {
     padding: 30px;
     margin-top: 30px;
+  }
+
+  .visit h2 {
+    font-size: 32px;
+  }
+
+  .visit p {
+    font-size: 16px;
+  }
+
+  .visit li {
+    font-size: 16px;
   }
 
   footer {

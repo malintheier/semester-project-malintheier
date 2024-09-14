@@ -65,3 +65,58 @@
     font-size: 18px;
     line-height: 30px;
 }
+
+
+@media all and (max-width:1200px) {
+
+    .privacy_policy {
+        padding: 60px;
+    }
+
+    .terms_and_conditions {
+        padding: 60px;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+
+    .privacy_policy {
+        margin-top: 30px;
+    }
+
+    .privacy_policy h2,
+    .terms_and_conditions h2 {
+        font-size: 42px;
+    }
+
+}
+
+@media all and (max-width: 450px) {
+
+    .privacy_policy {
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .privacy_policy h2,
+    .terms_and_conditions h2 {
+        font-size: 32px;
+    }
+
+    .privacy_policy h3,
+    .terms_and_conditions h3 {
+        font-size: 22px;
+    }
+
+    .privacy_policy p,
+    .terms_and_conditions p {
+        font-size: 16px;
+    }
+
+    .terms_and_conditions {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+}

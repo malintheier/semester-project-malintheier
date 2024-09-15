@@ -99,16 +99,16 @@ textarea {
 
 input:focus {
     outline: none;
-    border-color: #9B32FE;
+    border-color: #8835D6;
 }
 
 textarea:focus {
     outline: none;
-    border-color: #9B32FE;
+    border-color: #8835D6;
 }
 
 .contact_form button {
-    background-color: #9B32FE;
+    background-color: #8835D6;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     text-transform: uppercase;

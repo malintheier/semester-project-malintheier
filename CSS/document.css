@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.privacy_policy h2 {
+.privacy_policy h1 {
     color: white;
     font-size: 48px;
     text-transform: uppercase;
@@ -85,7 +85,7 @@
         margin-top: 30px;
     }
 
-    .privacy_policy h2,
+    .privacy_policy h1,
     .terms_and_conditions h2 {
         font-size: 42px;
     }
@@ -99,7 +99,7 @@
         padding: 30px;
     }
 
-    .privacy_policy h2,
+    .privacy_policy h1,
     .terms_and_conditions h2 {
         font-size: 32px;
     }

@@ -61,6 +61,7 @@
 .news .box .info a {
     color: white;
     font-size: 20px;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     background-color: #C05AA2;
@@ -146,6 +147,7 @@
 .exhibitions .box .info .buttons button {
     color: white;
     font-size: 20px;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     background-color: #B162FB;

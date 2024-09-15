@@ -572,6 +572,11 @@
         font-size: 16px ;
     }
 
+    .exhibitions .wrap .box img {
+        width: 100%;
+        height: 260px;
+    }
+
     .exhibitions .wrap .info .buttons button {
         font-size: 16px;
         padding: 10px 20px 10px 20px;

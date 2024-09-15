@@ -64,7 +64,7 @@
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    background-color: #C05AA2;
+    background-color: #BA4A99;
     padding: 18px 40px 18px 40px;
     border-radius: 25px;
     display: inline-block;
@@ -150,7 +150,7 @@
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    background-color: #B162FB;
+    background-color: #A141FB;
     padding: 18px 40px 18px 40px;
     border-radius: 25px;
     border: none;
@@ -179,13 +179,13 @@
 
 .information .audience .text_2 {
     width: 40%;
-    background-color: #B162FB;
+    background-color: #A141FB;
     padding: 60px 120px 60px 120px;
 }
 
 .information .audience .text_3 {
     width: 40%;
-    background-color: #C05AA2;
+    background-color: #BA4A99;
     padding: 60px 120px 60px 120px;
 }
 

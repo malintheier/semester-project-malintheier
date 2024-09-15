@@ -43,8 +43,17 @@
                 <div class="text">
                 <h1>Contact us</h1>
                 <p>Complete the form below to submit a request for customer support</p>
-                <input id="first_name" type="text" name="first" placeholder="First name" autocomplete="off" required>
-                <input id="last_name" type="text" name="last" placeholder="Last name" autocomplete="off" required>
+                <form>
+                    <label for="first_name">First name</label>
+                    <input id="first_name" type="text" name="first" autocomplete="off" required>
+                </form>
+
+                <form>
+                    <label for="last_name">Last name</label>
+                    <input id="last_name" type="text" name="last" autocomplete="off" required>
+                </form>
+                
+                
                 <input id="email" type="email" name="email" placeholder="Email Adress" autocomplete="off" required>
                 <textarea id="message" name="message" placeholder="Message" cols="60" rows="5" autocomplete="off" required></textarea>
 

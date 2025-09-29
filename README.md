@@ -1,4 +1,4 @@
-# Semester Prosject 1 - ScienCity
+# Semester Project 1 - ScienCity
 
 ScienCity is a static website created for a fictional science museum. The site provides visitors with essential information such as current activities, location, opening hours, and general museum highlights. Designed with accessibility and clarity in mind, the project showcases clean layout and responsive design using only HTML and CSS.
 
@@ -22,4 +22,5 @@ ScienCity is a static website created for a fictional science museum. The site p
 ## Author
 
 @malintheier
+
 
